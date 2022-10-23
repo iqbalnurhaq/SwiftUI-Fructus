@@ -16,6 +16,7 @@
 		6EC3841C29042DBF006C0227 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC3841B29042DBF006C0227 /* OnboardingView.swift */; };
 		6EC3841F29043DF1006C0227 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC3841E29043DF1006C0227 /* FruitModel.swift */; };
 		6EC3842429043EE6006C0227 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC3842329043EE6006C0227 /* FruitData.swift */; };
+		6EC384262904FC4E006C0227 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC384252904FC4E006C0227 /* FruitRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		6EC3841B29042DBF006C0227 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		6EC3841E29043DF1006C0227 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		6EC3842329043EE6006C0227 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
+		6EC384252904FC4E006C0227 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				6EC384172903FFD5006C0227 /* FruitCardView.swift */,
 				6EC384192904295D006C0227 /* StartButtonView.swift */,
+				6EC384252904FC4E006C0227 /* FruitRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				6EC3842429043EE6006C0227 /* FruitData.swift in Sources */,
 				6EC384182903FFD5006C0227 /* FruitCardView.swift in Sources */,
+				6EC384262904FC4E006C0227 /* FruitRowView.swift in Sources */,
 				6EC3841A2904295D006C0227 /* StartButtonView.swift in Sources */,
 				6EC3840A2903D3F1006C0227 /* ContentView.swift in Sources */,
 				6EC3841C29042DBF006C0227 /* OnboardingView.swift in Sources */,

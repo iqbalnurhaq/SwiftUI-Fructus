@@ -38,6 +38,23 @@ struct SettingsView: View {
                                 .font(.footnote)
                         }
                         
+                    }
+                    
+                    
+                    //MARK: -SECTION 2
+                    
+                    GroupBox(
+                        label: SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")
+                    ) {
+                        
+                        SetttingsRowView(name: "Developer", content: "Jhon / Jane")
+                        SetttingsRowView(name: "Design", content: "Robert Petras")
+                        SetttingsRowView(name: "Compatibility", content: "IOS 14")
+                        SetttingsRowView(name: "Website", linkLabel: "SwiftUI Masterclass", linkDestination: "swiftuimasterclass.com")
+                        SetttingsRowView(name: "Twitter", linkLabel: "@IqbalNurHaq", linkDestination: "apple.com")
+                        SetttingsRowView(name: "SwiftUI", content: "2.0")
+                        SetttingsRowView(name: "Version", content: "1.1.0")
+                        
                         
                     }
                 }
